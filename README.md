@@ -147,3 +147,182 @@ float                               |   left \| right \| none
 height                              |   auto
 &nbsp;                              |   <em>length</em>
 &nbsp;                              |   <em>%</em>
+max-height                          |   none
+&nbsp;                              |   <em>length</em>
+&nbsp;                              |   <em>%</em>
+max-width                           |   none
+&nbsp;                              |   <em>length</em>
+&nbsp;                              |   <em>%</em>
+min-height                          |   none \| inherit
+&nbsp;                              |   <em>length</em>
+&nbsp;                              |   <em>%</em>
+min-width                           |   none
+&nbsp;                              |   <em>length</em>
+&nbsp;                              |   <em>%</em>
+width                               |   auto
+&nbsp;                              |   <em>%</em>
+&nbsp;                              |   <em>length</em>
+margin                              |   <em>margin margin-top</em>
+&nbsp;                              |   <em>margin-right</em>
+&nbsp;                              |   <em>margin-bottom</em>
+&nbsp;                              |   <em>margin-left</em>
+margin-bottom                       |   auto
+&nbsp;                              |   <em>length</em>
+&nbsp;                              |   <em>%</em>
+margin-left                         |   auto
+&nbsp;                              |   <em>length</em>
+&nbsp;                              |   <em>%</em>
+margin-right                        |   auto
+&nbsp;                              |   <em>length</em>
+&nbsp;                              |   <em>%</em>
+margin-top                          |   auto
+&nbsp;                              |   <em>length</em>
+&nbsp;                              |   <em>%</em>
+padding                             |   <em>padding padding-top</em>
+&nbsp;                              |   <em>padding-right</em>
+&nbsp;                              |   <em>padding-bottom</em>
+&nbsp;                              |   <em>padding-left</em>
+padding-bottom                      |   <em>length</em>
+&nbsp;                              |   <em>%</em>
+padding-left                        |   <em>length</em>
+&nbsp;                              |   <em>%</em>
+padding-right                       |   <em>length</em>
+&nbsp;                              |   <em>%</em>
+padding-top                         |   <em>length</em>
+&nbsp;                              |   <em>%</em>
+marquee-direction                   |   forward \| reverse
+marquee-loop                        |   infinite
+&nbsp;                              |   <em>number</em>
+marquee-play-count                  |   infinite
+&nbsp;                              |   <em>integer</em>
+marquee-speed                       |   slow \| normal \| fast
+marquee-style                       |   scroll \| slide \| alternate
+overflow                            |   visible \| hidden \| scroll \| auto \| no-display \| nocontent
+&nbsp;                              |   <em>overflow-x</em>
+&nbsp;                              |   <em>overflow-y</em>
+overflow-style                      |   auto \| marquee-line \| marqueeblock
+overflow-x                          |   visible \| hidden \| scroll \| auto \| no-display \| nocontent
+overflow-y                          |   visible \| hidden \| scroll \| auto \| no-display \| nocontent
+rotation                            |   <em>angle</em>
+rotation-point                      |   <em>position (paired value offset)</em>
+visibility                          |   visibility visible \| hidden \| collapse
+
+## Font
+
+|Term                               |   Term 1 |
+|---                                |   ---    |
+font                                |   font-style
+&nbsp;                              |   font-variant
+&nbsp;                              |   font-weight
+&nbsp;                              |   font-size/line-height
+&nbsp;                              |   font-family
+&nbsp;                              |   caption \| icon \| menu \| message-box \| smallcaption \| status-bar
+font-family                         |   <em>family-name</em>
+&nbsp;                              |   <em>generic-family</em>
+&nbsp;                              |   inherit
+font-size                           |   xx-small \| x-small \| small \| medium \| large \| x-large \| xx-large \| smaller \| larger \| inherit
+&nbsp;                              |   <em>length</em>
+&nbsp;                              |   <em>%</em>
+font-size-adjust                    |   none \| inherit
+&nbsp;                              |   <em>number</em>
+font-stretch                        |   normal \| wider \| narrower \| ultra-condensed \| extracondensed \| condensed \| semi-condensed \| semiexpanded \| expanded \| extra-expanded \| ultraexpanded \| inherit
+font-style                          |   normal \| italic \| oblique \| inherit
+font-variant                        |   normal \| small-caps \| inherit
+font-weight                         |   normal \| bold \| bolder \| lighter \| 100 \| 200 \| 300 \| 400 \| 500 \| 600 \| 700 \| 800 \| 900 \| inherit
+
+## Color
+|Term                               |   Term 1 |
+|---                                |   ---    |
+color                               |   inherit
+&nbsp;                              |   <em>color</em>
+opacity                             |   inherit
+&nbsp;                              |   <em>number</em>
+
+## Text
+|Term                               |   Term 1 |
+|---                                |   ---    |
+direction                           |   ltr \| rtl \| inherit
+hanging-punctuation                 |   none \| [ start \| end \| endedge ]
+letter-spacing                      |   normal
+&nbsp;                              |   <em>length</em>
+&nbsp;                              |   <em>%</em>
+punctuation-trim                    |   none \| [start \| end \| adjacent]
+text-align                          |   start \| end \| left \| right \| center \| justify
+text-align-last                     |   start \| end \| left \| right \| center \| justify
+text-decoration                     |   none \| underline \| overline \| line-through \| blink
+text-emphasis                       |   none \| [ [ accent \| dot \| circle \| disc] [ before \| after ]? ]
+text-indent                         |   <em>length</em>
+&nbsp;                              |   <em>%</em>
+text-justify                        |   auto | inter-word | interideograph | inter-cluster | distribute | kashida | tibetan
+text-outline
+text-shadow
+text-transform
+text-wrap
+unicode-bidi
+white-space
+white-space-collapse
+word-break
+word-spacing
+word-wrap
+
+
+
+
+
+
+
+
+
+
+none
+color
+length
+none
+color
+length
+none | capitalize | uppercase
+| lowercase
+normal | unrestricted | none
+| suppress
+normal | embed | bidioverride
+normal | pre | nowrap | prewrap
+| pre-line
+preserve | collapse | preservebreaks
+| discard
+normal | keep-all | loose |
+break-strict | break-all
+normal
+length
+%
+
+## Column
+|Term                               |   Term 1 |
+|---                                |   ---    |
+normal | break-word
+column-count
+column-fill
+column-gap
+column-rule
+column-rule-color
+column-rule-style
+column-rule-width
+columns
+column-span
+column-width
+auto
+number
+auto | balance
+normal
+length
+column-rule-width
+column-rule-style
+column-rule-color
+color
+border-style
+thin | medium | thick
+length
+column-width
+column-count
+1 | all
+auto
+length
