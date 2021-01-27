@@ -254,75 +254,352 @@ text-emphasis                       |   none \| [ [ accent \| dot \| circle \| d
 text-indent                         |   <em>length</em>
 &nbsp;                              |   <em>%</em>
 text-justify                        |   auto | inter-word | interideograph | inter-cluster | distribute | kashida | tibetan
-text-outline
-text-shadow
-text-transform
-text-wrap
-unicode-bidi
-white-space
-white-space-collapse
-word-break
-word-spacing
-word-wrap
-
-
-
-
-
-
-
-
-
-
-none
-color
-length
-none
-color
-length
-none | capitalize | uppercase
-| lowercase
-normal | unrestricted | none
-| suppress
-normal | embed | bidioverride
-normal | pre | nowrap | prewrap
-| pre-line
-preserve | collapse | preservebreaks
-| discard
-normal | keep-all | loose |
-break-strict | break-all
-normal
-length
-%
+text-outline                        |   none
+&nbsp;                              |   <em>color</em>
+&nbsp;                              |   <em>length</em>
+text-shadow                         |   none
+&nbsp;                              |   <em>color</em>
+&nbsp;                              |   <em>length</em>
+text-transform                      |   none \| capitalize \| uppercase \| lowercase
+text-wrap                           |   normal \| unrestricted \| none \| suppress
+unicode-bidi                        |   normal \| embed \| bidioverride
+white-space                         |   normal \| pre \| nowrap \| prewrap \| pre-line
+white-space-collapse                |   preserve \| collapse \| preservebreaks \| discard
+word-break                          |   normal \| keep-all \| loose \| break-strict \| break-all
+word-spacing                        |   normal
+&nbsp;                              |   <em>length</em>
+&nbsp;                              |   <em>%</em>
+word-wrap                           |   normal \| break-word
 
 ## Column
 |Term                               |   Term 1 |
 |---                                |   ---    |
-normal | break-word
-column-count
-column-fill
-column-gap
-column-rule
-column-rule-color
-column-rule-style
-column-rule-width
-columns
-column-span
-column-width
-auto
+column-count                        |   auto
+&nbsp;                              |   <em>number</em>
+column-fill                         |   auto \| balance
+column-gap                          |   normal
+&nbsp;                              |   <em>length</em>
+column-rule                         |   <em>column-rule-width</em>
+&nbsp;                              |   <em>column-rule-style</em>
+&nbsp;                              |   <em>column-rule-color</em>
+column-rule-color                   |   <em>color</em>
+column-rule-style                   |   <em>border-style</em>
+column-rule-width                   |   thin \| medium \| thick
+&nbsp;                              |   <em>length</em>
+columns                             |   <em>column-width</em>
+&nbsp;                              |   <em>column-count</em>
+column-span                         |   1 \| all
+column-width                        |   auto
+&nbsp;                              |   <em>length</em>
+
+
+## Animations
+|Term                               |   Term 1 |
+|---                                |   ---    |
+animation                           |   animation-name
+&nbsp;                              |   animation-duration
+&nbsp;                              |   animation-timing-function
+&nbsp;                              |   animation-delay
+&nbsp;                              |   animation-iteration-count
+&nbsp;                              |   animation-direction
+animation-delay                     |   time
+animation-direction                 |   normal \| alternate
+animation-duration                  |   time
+animation-iteration-count           |   inherit
+&nbsp;                              |   number
+animation-name                      |   none \| IDENT
+animation-play-state                |   running \| paused
+animation-timing-function           |   ease \| linear \| ease-in \| ease-out \| ease-in-out \| cubic-Bezier (number, number, number, number)
+
+## Speech
+|Term                               |   Term 1 |
+|---                                |   ---    |
+cue                                 |   <em>cue-before</em>
+&nbsp;                              |   <em>cue-after</em>
+cue-before                          |   uri [ silent \| x-soft \| soft \| medium \| loud \| x-loud] \| none \| inherit ]
+&nbsp;                              |   <em>number</em>
+&nbsp;                              |   <em>%</em>
+cue-after                           |   uri [ silent | x-soft | soft | medium | loud | x-loud] | none | inherit ]
+&nbsp;                              |   <em>number</em>
+&nbsp;                              |   <em>%</em>
+mark                                |   <em>mark-before</em>
+&nbsp;                              |   <em>mark-after</em>
+mark-before                         |   <em>string</em>
+mark-after                          |   <em>string</em>
+pause                               |   <em>pause-before</em>
+&nbsp;                              |   <em>pause-after</em>
+pause-before                        |   none | x-weak | weak | medium | strong | x-strong | inherit
+&nbsp;                              |   <em>time</em> 
+pause-after                         |   none | x-weak | weak | medium | strong | x-strong | inherit
+&nbsp;                              |   time
+phonemes                            |   <em>string</em>
+rest                                |   rest-before
+&nbsp;                              |   rest-after
+rest-before                         |   none | x-weak | weak | medium | strong | x-strong | inherit
+&nbsp;                              |   time
+rest-after                          |   none | x-weak | weak | medium | strong | x-strong | inherit
+&nbsp;                              |   time
+speak                               |   none | normal | spell-out | digits | literal-punctuation | no-punctuation | inherit
+voice-balance                       |   left | center | right | leftwards | rightwards | inherit
+&nbsp;                              |   <em>number</em>
+voice-duration                      |   <em>time</em>
+voice-family                        |   inherit | [ <specific-voice, age, generic-voice, number> ]
+voice-rate                          |   x-slow | slow | medium | fast | x-fast | inherit
+&nbsp;                              |   %
+voice-pitch                         |   x-low | low | medium | high | x-high | inherit
+&nbsp;                              |   <em>number</em>
+&nbsp;                              |   <em>%</em>
+voice-pitch-range                   |   x-low | low | medium | high | x-high | inherit
+&nbsp;                              |   <em>number</em>
+voice-stress                        |   strong | moderate | none | reduced | inherit
+voice-volume                        |   silent | x-soft | soft | medium | loud | x-loud | inherit
+&nbsp;                              |   <em>number</em>
+&nbsp;                              |   <em>%</em>
+
+
+
+
+## Template Layout
+|Term                               |   Term 1 |
+|---                                |   ---    |
+box-align
+box-direction
+box-flex
+box-flex-group
+box-lines
+box-orient
+box-pack
+box-sizing
+tab-side
+start | end | center | base
+normal | reverse
 number
-auto | balance
-normal
+integer
+single | multiple
+horizontal | vertical | inlineaxis
+| block-axis
+start | end | center | justify
+content-box | padding-box |
+border-box | margin-box
+top | bottom | left | right
+
+
+
+## Template Layout
+|Term                               |   Term 1 |
+|---                                |   ---    |
+list-style
+list-style-image
+list-style-position
+list-style-type
+marker-offset
+list-style-type
+list-style-position
+list-style-image
+none
+url
+Inside | outside
+none | asterisks | box |
+check | circle | diamond |
+disc | hyphen | square |
+decimal | decimal-leadingzero
+| lower-roman | upperroman
+| lower-alpha | upperalpha
+| lower-greek |
+lower-latin | upper-latin |
+hebrew | armenian | georgian
+| cjk-ideographic |
+hiragana | katakana | hiraganairoha
+| katakana-iroha
+| footnotes
+auto
 length
-column-rule-width
-column-rule-style
-column-rule-color
+
+
+## Grid Positioning
+|Term                               |   Term 1 |
+|---                                |   ---    |
+grid-columns
+grid-rows
+none | inherit
+[ length percentage relative
+length ]
+none | inherit
+[ length percentage relative
+length ]
+
+
+## Outline
+|Term                               |   Term 1 |
+|---                                |   ---    |
+outline
+outline-color
+outline-offset
+outline-style
+outline-width
+outline-color
+outline-style
+outline-width
 color
-border-style
+invert
+inherit
+length
+None | dotted | dashed |
+solid | double | groove |
+ridge | inset | outset
 thin | medium | thick
 length
-column-width
-column-count
-1 | all
+
+
+## 3D / 2D Transform
+|Term                               |   Term 1 |
+|---                                |   ---    |
+backface-visibility
+perspective
+perspective-origin
+transform
+transform-origin
+transform-style
+visible | hidden
+none
+number
+[ [ [ percentage> | <length> |
+left | center | right ] [
+<percentage> | <length> | top
+| center | bottom ]? ] <length> ]
+| [ [ [ left | center | right ] ||
+[ top | center | bottom ] ]
+<length> ]
+none | matrix | matrix3d |
+translate3d | translateX |
+translateY | translateZ |
+scale | scale3d | scaleX |
+scaleY | scaleZ | rotate |
+rotate3d | rotateX | rotateY
+| rotateZ | skewX | skewY |
+skew | perspective
+[ [ [ <percentage> |
+<length> | left | center |
+right ] [ <percentage> |
+<length> | top | center |
+bottom ]? ] <length> ] |
+[ [ [ left | center | right ] ||
+[ top | center | bottom ] ]
+<length> ]
+flat | preserve-3d
+
+## Hyperlink
+|Term                               |   Term 1 |
+|---                                |   ---    |
+target
+target-name
+target-new
+target-position
+target-name
+target-new
+target-position
+current | root | parent | new
+| modal
+string
+window | tab | none
+above | behind | front |
+back
+
+
+## Generated Content
+|Term                               |   Term 1 |
+|---                                |   ---    |
+bookmark-label
+bookmark-level
+bookmark-target
+border-length
+content
+counter-increment
+counter-reset
+crop
+display
+float-offset
+hyphenate-after
+hyphenate-before
+hyphenate-character
+hyphenate-lines
+hyphenate-resource
+hyphens
+image-resolution
+marks
+move-to
+page-policy
+quotes
+content
+attr
+string
+none
+integer
+self
+uri
+attr
 auto
 length
+normal | none | inhibit
+uri
+none
+identifier number
+none
+identifier number
+auto
+shape
+normal | none | list-item
+length length
+auto
+integer
+auto
+integer
+auto
+integer
+no-limit
+integer
+none
+uri
+none | manual | auto
+normal | auto
+dpi
+[ crop || cross ] | none
+normal | here
+identifier
+start | first | last
+none
+string string string string
+string-set
+text-replace
+identifier
+content-list
+none
+[<string> <string>]+
+
+## Positioning
+|Term                               |   Term 1 |
+|---                                |   ---    |
+bottom
+clip
+left
+position
+right
+top
+z-index
+auto
+%
+length
+shape
+auto
+auto
+%
+length
+static | relative | absolute | fixed
+auto
+%
+length
+auto
+%
+length
+auto
+number
