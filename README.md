@@ -356,78 +356,39 @@ voice-volume                        |   silent | x-soft | soft | medium | loud |
 &nbsp;                              |   <em>number</em>
 &nbsp;                              |   <em>%</em>
 
-
-
-
 ## Template Layout
 |Term                               |   Term 1 |
 |---                                |   ---    |
-box-align
-box-direction
-box-flex
-box-flex-group
-box-lines
-box-orient
-box-pack
-box-sizing
-tab-side
-start | end | center | base
-normal | reverse
-number
-integer
-single | multiple
-horizontal | vertical | inlineaxis
-| block-axis
-start | end | center | justify
-content-box | padding-box |
-border-box | margin-box
-top | bottom | left | right
+box-align                           |   start \| end \| center \| base
+box-direction                       |   start \| end \| center \| base
+box-flex                            |   <em>number</em>
+box-flex-group                      |   <em>integer</em>
+box-lines                           |   single \| multiple                    
+box-orient                          |   horizontal \| vertical \| inlineaxis \| block-axis
+box-pack                            |   start \| end \| center \| justify
+box-sizing                          |   content-box \| padding-box \| border-box \| margin-box
+tab-side                            |   top \| bottom \| left \| right
 
-
-
-## Template Layout
+## List & Markers
 |Term                               |   Term 1 |
 |---                                |   ---    |
-list-style
-list-style-image
-list-style-position
-list-style-type
-marker-offset
-list-style-type
-list-style-position
-list-style-image
-none
-url
-Inside | outside
-none | asterisks | box |
-check | circle | diamond |
-disc | hyphen | square |
-decimal | decimal-leadingzero
-| lower-roman | upperroman
-| lower-alpha | upperalpha
-| lower-greek |
-lower-latin | upper-latin |
-hebrew | armenian | georgian
-| cjk-ideographic |
-hiragana | katakana | hiraganairoha
-| katakana-iroha
-| footnotes
-auto
-length
-
+list-style                          |   <em>list-style-type</em>
+&nbsp;                              |   <em>list-style-position</em>
+&nbsp;                              |   <em>list-style-image</em>
+list-style-image                    |   none
+&nbsp;                              |   <em>url</em>
+list-style-position                 |   Inside \| outside
+list-style-type                     |   none \| asterisks \| box \| check \| circle \| diamond \| disc \| hyphen \| square \| decimal \| decimal-leadingzero \| lower-roman \| upperroman \| lower-alpha \| upperalpha \| lower-greek \| lower-latin \| upper-latin \| hebrew \| armenian \| georgian \| cjk-ideographic \| hiragana \| katakana \| hiraganairoha \| katakana-iroha \| footnotes
+marker-offset                       |   auto
+&nbsp;                              |   <em>length</em>
 
 ## Grid Positioning
 |Term                               |   Term 1 |
 |---                                |   ---    |
-grid-columns
-grid-rows
-none | inherit
-[ length percentage relative
-length ]
-none | inherit
-[ length percentage relative
-length ]
-
+grid-columns                        |   none \| inherit
+&nbsp;                              |   <em>[ length percentage relative length ]</em>
+grid-rows                           |   none \| inherit
+&nbsp;                              |   <em>[ length percentage relative length ]</em>
 
 ## Outline
 |Term                               |   Term 1 |
