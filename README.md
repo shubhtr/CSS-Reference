@@ -393,79 +393,71 @@ grid-rows                           |   none \| inherit
 ## Outline
 |Term                               |   Term 1 |
 |---                                |   ---    |
-outline
-outline-color
-outline-offset
-outline-style
-outline-width
-outline-color
-outline-style
-outline-width
-color
-invert
-inherit
-length
-None | dotted | dashed |
-solid | double | groove |
-ridge | inset | outset
-thin | medium | thick
-length
-
+outline | <i>outline-color</i>
+&nbsp; | <i>outline-style</i>
+&nbsp; | <i>outline-width</i>
+&nbsp; | &nbsp;
+outline-color | <i>color</i>
+&nbsp; | invert
+&nbsp; | &nbsp;
+outline-offset | inherit
+&nbsp; | length
+&nbsp; | &nbsp;
+outline-style | None \| dotted \| dashed \| solid \| double \| groove \| ridge \| inset \| outset
+&nbsp; | &nbsp;
+outline-width | thin \| medium \| thick \| length
 
 ## 3D / 2D Transform
 |Term                               |   Term 1 |
 |---                                |   ---    |
-backface-visibility
-perspective
-perspective-origin
-transform
-transform-origin
-transform-style
-visible | hidden
-none
-number
-[ [ [ percentage> | <length> |
-left | center | right ] [
-<percentage> | <length> | top
-| center | bottom ]? ] <length> ]
-| [ [ [ left | center | right ] ||
-[ top | center | bottom ] ]
+backface-visibility | visible \| hidden
+&nbsp; | &nbsp;
+perspective | none
+&nbsp; | number
+&nbsp; | &nbsp;
+perspective-origin | [ [ [ percentage> \| <length> \|
+left \| center \| right ] [
+<percentage> \| <length> \| top
+\| center \| bottom ]? ] <length> ]
+\| [ [ [ left \| center \| right ] ||
+[ top \| center \| bottom ] ]
 <length> ]
-none | matrix | matrix3d |
-translate3d | translateX |
-translateY | translateZ |
-scale | scale3d | scaleX |
-scaleY | scaleZ | rotate |
-rotate3d | rotateX | rotateY
-| rotateZ | skewX | skewY |
-skew | perspective
-[ [ [ <percentage> |
-<length> | left | center |
-right ] [ <percentage> |
-<length> | top | center |
-bottom ]? ] <length> ] |
-[ [ [ left | center | right ] ||
-[ top | center | bottom ] ]
+&nbsp; | &nbsp;
+transform | none \| matrix \| matrix3d \|
+translate3d \| translateX \|
+translateY \| translateZ \|
+scale \| scale3d \| scaleX \\|
+scaleY \| scaleZ \| rotate \|
+rotate3d \| rotateX \| rotateY
+\| rotateZ \| skewX \| skewY \|
+skew \| perspective
+&nbsp; | &nbsp;
+transform-origin | [ [ [ <percentage> \|
+<length> \| left \| center \|
+right ] [ <percentage> \|
+<length> \| top \| center \|
+bottom ]? ] <length> ] \|
+[ [ [ left \| center \| right ] ||
+[ top \| center \| bottom ] ]
 <length> ]
-flat | preserve-3d
+&nbsp; | &nbsp;
+transform-style | flat \| preserve-3d
+&nbsp; | &nbsp;
 
 ## Hyperlink
 |Term                               |   Term 1 |
 |---                                |   ---    |
-target
-target-name
-target-new
-target-position
-target-name
-target-new
-target-position
-current | root | parent | new
-| modal
-string
-window | tab | none
-above | behind | front |
-back
-
+target | <i>target-name</i>
+&nbsp; | <i>target-new</i>
+&nbsp; | <i>target-position</i>
+&nbsp; | &nbsp;
+target-name | current \| root \| parent \| new \| modal
+&nbsp; | <i>string</i>
+&nbsp; | &nbsp;
+target-new | window \| tab \| none
+&nbsp; | &nbsp;
+target-position | above \| behind \| front \| back
+&nbsp; | &nbsp;
 
 ## Generated Content
 |Term                               |   Term 1 |
