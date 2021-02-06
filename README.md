@@ -462,72 +462,72 @@ target-position | above \| behind \| front \| back
 ## Generated Content
 |Term                               |   Term 1 |
 |---                                |   ---    |
-bookmark-label
-bookmark-level
-bookmark-target
-border-length
-content
-counter-increment
-counter-reset
-crop
-display
-float-offset
-hyphenate-after
-hyphenate-before
-hyphenate-character
-hyphenate-lines
-hyphenate-resource
-hyphens
-image-resolution
-marks
-move-to
-page-policy
-quotes
-content
-attr
-string
-none
-integer
-self
-uri
-attr
-auto
-length
-normal | none | inhibit
-uri
-none
-identifier number
-none
-identifier number
-auto
-shape
-normal | none | list-item
-length length
-auto
-integer
-auto
-integer
-auto
-integer
-no-limit
-integer
-none
-uri
-none | manual | auto
-normal | auto
-dpi
-[ crop || cross ] | none
-normal | here
-identifier
-start | first | last
-none
-string string string string
-string-set
-text-replace
-identifier
-content-list
-none
-[<string> <string>]+
+bookmark-label | content
+&nbsp; | <em>attr</em>
+&nbsp; | <em>string</em>
+&nbsp; | &nbsp;
+bookmark-level | none
+&nbsp; | <em>integer</em>
+&nbsp; | &nbsp;
+bookmark-target | self
+&nbsp; | <em>uri</em>
+&nbsp; | <em>attr</em>
+&nbsp; | &nbsp;
+border-length | auto
+&nbsp; | <em>length</em>
+&nbsp; | &nbsp;
+content | normal \| none \| inhibit
+&nbsp; | uri
+&nbsp; | &nbsp;
+counter-increment | none
+&nbsp; | <em>identifier number</em>
+&nbsp; | &nbsp;
+counter-reset | none
+&nbsp; | <em>identifier number</em>
+&nbsp; | &nbsp;
+crop | auto
+&nbsp; | <em>shape</em>
+&nbsp; | &nbsp;
+display | normal \| none \| list-item
+&nbsp; | &nbsp;
+float-offset | <em>length length</em>
+&nbsp; | &nbsp;
+hyphenate-after | auto
+&nbsp; | <em>integer</em>
+&nbsp; | &nbsp;
+hyphenate-before | auto
+&nbsp; | <em>integer</em>
+&nbsp; | &nbsp;
+hyphenate-character | auto
+&nbsp; | <em>integer</em>
+&nbsp; | &nbsp;
+hyphenate-lines | no-limit
+&nbsp; | <em>integer</em>
+&nbsp; | &nbsp;
+hyphenate-resource | none
+&nbsp; | <em>uri</em>
+&nbsp; | &nbsp;
+hyphens | none \| manual \| auto
+&nbsp; | &nbsp;
+image-resolution | normal \| auto
+&nbsp; | dpi
+&nbsp; | &nbsp;
+marks | [ crop \|\| cross ] \| none
+&nbsp; | &nbsp;
+move-to | normal \| here
+&nbsp; | identifier
+&nbsp; | &nbsp;
+page-policy | start \| first \| last
+&nbsp; | &nbsp;
+quotes | none
+&nbsp; | <em>string string string string</em>
+&nbsp; | &nbsp;
+string-set | <em>identifier</em>
+&nbsp; | <em>content-list</em>
+&nbsp; | &nbsp;
+text-replace | none
+&nbsp; | <em>[<string> <string>]+</em>
+&nbsp; | &nbsp;
 
 ## Positioning
 |Term                               |   Term 1 |
